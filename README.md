@@ -12,8 +12,6 @@ An interactive and responsive web application designed to help users learn and p
 
 🏠 Home and Test Pages with consistent themes
 
-🖤 Dark Theme Styling for better accessibility and visual comfort
-
 📈 Expandable and Modular Structure for adding new question sets
 
 🗂️ Project Structure
