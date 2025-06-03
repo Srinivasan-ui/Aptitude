@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CNA</h1>
+    </header>
+
+    <!-- Toggle Button -->
+    <button class="menu-toggle" onclick="toggleCategory()">☰</button>
+
+    <div class="main-container">
+        <!-- Left Container: Category List -->
+        <div class="category-container" id="categoryContainer">
+            <div class="category" onclick="showCategoryQuestions('numericalReasoning')">
+                <h3>Numerical Reasoning</h3>
+            </div>
+            <div class="category" onclick="showCategoryQuestions('verbalReasoning')">
+                <h3>Verbal Reasoning</h3>
+            </div>
+            <div class="category" onclick="showCategoryQuestions('logicalReasoning')">
+                <h3>Logical Reasoning</h3>
+            </div>
+            <div class="category" onclick="showCategoryQuestions('abstractReasoning')">
+                <h3>Abstract Reasoning</h3>
+            </div>
+            <div class="category" onclick="showCategoryQuestions('dataInterpretation')">
+                <h3>Data Interpretation</h3>
+            </div>
+            <div class="category" onclick="showCategoryQuestions('spatialReasoning')">
+                <h3>Spatial Reasoning</h3>
+            </div>
+            <div class="category" onclick="showCategoryQuestions('mechanicalReasoning')">
+                <h3>Mechanical Reasoning</h3>
+            </div>
+            <div class="category" onclick="showCategoryQuestions('clericalAptitude')">
+                <h3>Clerical Aptitude</h3>
+            </div>
+            <div class="category" onclick="showCategoryQuestions('criticalThinking')">
+                <h3>Critical Thinking</h3>
+            </div>
+            <div class="category" onclick="showCategoryQuestions('generalKnowledge')">
+                <h3>General Knowledge</h3>
+            </div>
+        </div>
+
+        <!-- Right Container: Questions and Explanation -->
+        <div class="question-container" id="content">
+            <h2>Select a Category to Start</h2>
+            <button class="start-test-btn" onclick="showCategoryQuestions('numericalReasoning')">Start Test</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Aptitude Test Platform | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
