@@ -37,4 +37,4 @@ Mobile-first redesign for better responsiveness
 
 👨‍💻 Author
 Srinivasan C
-📧 c.srinivasan8197@gmail.com
+📧 srinivasan.uiux@gmail.com
