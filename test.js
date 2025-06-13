@@ -150,7 +150,6 @@ function showResult() {
     `;
   });
 
-  resultHTML += `<button class="home-button" onclick="location.href='home.html'">Return to Home</button>`;
 
   document.getElementById("testContainer").innerHTML = resultHTML;
 }
